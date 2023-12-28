@@ -29,7 +29,7 @@ export const Payment = () => {
       // address:[...ActiveUser.address]
     }
     axios
-    .put(`https://monkeyapi-2-0.onrender.com/users/${userId}`, updatedOrder)
+    .put(`https://precious-n-charms.onrender.com/users/${userId}`, updatedOrder)
     .then((response) => {
       console.log('Data updated successfully:', response.data);
       dispatch({type:LOGIN_SUCCESS,payload:response.data});

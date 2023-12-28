@@ -44,7 +44,7 @@ export const SingleOrderdetails = () => {
     const dispatch=useDispatch()
 
     useEffect(()=>{
-        axios.get(`https://monkeyapi-2-0.onrender.com/users/${id}`)
+        axios.get(`https://precious-n-charms.onrender.com/users/${id}`)
         .then((res)=>{
             // console.log(res);
             setUser(res.data)

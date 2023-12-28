@@ -3,10 +3,11 @@ import { UserObject } from "../../constrain";
 import { ADD_ITEM, DELETE_ITEM, LOGIN_FAILURE, LOGIN_REQUEST, LOGIN_SUCCESS, SIGNUP_SUCCESS, USER_FAILURE, USER_REQUEST, USER_SUCCESS } from "./actionType"
 import axios from "axios";
 const url = "/users"
+
 export const getUsers =()=>{
    return async(dispatch:Dispatch<{type:string}|{type:string,payload:UserObject[]}>):Promise<void>=>{
       dispatch({type:USER_REQUEST});
-   axios.get(`https://monkeyapi-2-0.onrender.com/users`).
+   axios.get(`https://precious-n-charms.onrender.com/users`).
    then((response: { data: any; })=>{ dispatch({type:USER_SUCCESS,payload:response.data}); }).catch(()=>{
     dispatch({type:USER_FAILURE});
 
@@ -17,7 +18,7 @@ export const getUsers =()=>{
 
 export const SignUp= (newUser:UserObject)=>(dispatch:Dispatch<{type:string}|{type:string,payload:UserObject[]}>)=>{
    dispatch({type:LOGIN_REQUEST});
-   axios.post(`https://monkeyapi-2-0.onrender.com/users`,newUser).
+   axios.post(`https://precious-n-charms.onrender.com/users`,newUser).
    then((response: { data: any; })=>{ dispatch({type:SIGNUP_SUCCESS,payload:response.data})}).catch(()=>{
     dispatch({type:LOGIN_FAILURE});
 
@@ -32,7 +33,7 @@ export const ActionToAddItem = (payload:any)=>{
 }
 export const Login= (newUser:UserObject)=>(dispatch:Dispatch<{type:string}|{type:string,payload:UserObject[]}>)=>{
    dispatch({type:LOGIN_REQUEST});
-   axios.post(`https://monkeyapi-2-0.onrender.com/users`,newUser).
+   axios.post(`https://precious-n-charms.onrender.com/users`,newUser).
    then((response: { data: any; })=>{
       // console.log(response.data);
       

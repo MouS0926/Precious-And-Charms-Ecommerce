@@ -105,8 +105,8 @@ setCredentials({email:"",password:""})
    
     <Div>
      <div className='form'>
-      <h1>PRECIOUS CHARMS</h1>
-      <h2>JWELLARY SHOP</h2>
+     <Link to="/"><h1>PRECIOUS-&-CHARMS</h1></Link> 
+      
 
       <h2>LOGIN PAGE</h2>
       <input type="email" name="email" placeholder='email'

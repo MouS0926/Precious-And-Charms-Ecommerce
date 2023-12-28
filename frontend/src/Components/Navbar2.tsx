@@ -101,8 +101,8 @@ const Navbar2: React.FC = () => {
 
 
       
-        <CustomNavLink to="/contact" onClick={closeMobileMenu}>
-          Contact Us
+        <CustomNavLink to="/about" onClick={closeMobileMenu}>
+          About Us
         </CustomNavLink>
         {isAuth?(
           <Box
