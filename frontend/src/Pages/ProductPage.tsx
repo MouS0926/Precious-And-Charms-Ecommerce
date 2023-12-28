@@ -145,7 +145,7 @@ margin-top: 30px;
 
  .product-list{
   
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(2,1fr);
   grid-gap: 30px;
 }
 }
