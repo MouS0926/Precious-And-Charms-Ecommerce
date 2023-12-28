@@ -27,18 +27,18 @@ const Dashboard = () => {
 
     <DIV style={{backgroundColor:"rgb(157, 159, 159)"}}>
       <div>
-        <div className='dashboard' style={{ paddingLeft: "20px", width: "100%" }}>
+        <div className='dashboard' style={{ paddingLeft: "20px", width: "90%" }}>
           <img src={img1} alt="error" />
           <img src={img2} alt="error" />
           <img src={img3} alt="error" />
           <img style={{ width: "350px" }} src={img4} alt="error" />
         </div>
-        <div className='dashboard1' style={{ paddingLeft: "10px", width: "100%" }}>
+        <div className='dashboard1' style={{ paddingLeft: "10px", width: "90%" }}>
           <img src={img5} alt="error" />
           <img src={img6} alt="error" />
           <img src={img7} alt="error" />
         </div>
-        <div className='dashboard2' style={{ paddingLeft: "20px", width: "100%",paddingTop:"100px" }}>
+        <div className='dashboard2' style={{ paddingLeft: "20px", width: "90%",paddingTop:"100px" }}>
           <img src={img8} alt="error" />
         </div>
         <div className='dashboard3' style={{ paddingLeft: "90px", width: "100%", }}> 
@@ -58,16 +58,12 @@ const DIV = styled.div`
 
 
 
+ 
  .dashboard{
   display: flex;
   gap: 10px;
-  padding-top:100px
-  
- }
- .dashboard{
-  display: flex;
-  gap: 10px;
-  padding-top:100px
+  padding-top:100px;
+  margin:0 auto
   
  }
  .dashboard img{
@@ -75,11 +71,11 @@ const DIV = styled.div`
   height:200px;
   
  }
-.dashboard1{
+.dashboard1,.dashboard2{
   display: flex;
   gap: 20px;
   padding-top:100px;
- 
+  margin:0 auto
  
 }
 .dashboard1 img{
@@ -91,6 +87,7 @@ const DIV = styled.div`
   display: flex;
   gap: 20px;
   padding-top:100px;
+  margin:0 auto
 }
 .dashboard2 img{
   width:98%;
