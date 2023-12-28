@@ -47,13 +47,13 @@ Admin Features :
 Clone the project
 
 ```bash
-  git clone https://github.com/MouS0926/Precious-Charms-Ecommerce-Website-for-Jewellery-and-watches.git
+  git clone https://github.com/MouS0926/Precious-And-Charms.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd shocking-grade-9442
+  cd frontend
 ```
 
 Install dependencies
