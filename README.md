@@ -10,11 +10,11 @@ Precious Charms is an e-commerce website specializing in jewelry, watches, and a
 
 ## Deployed Link
 
-[Netlify Deployed Link:  PRECIOUS CHARMS](https://precious-charms.vercel.app/)
+[Deployed Link:  PRECIOUS & CHARMS](https://precious-and-charms-one.vercel.app/)
 
 
 ## API Link
-[Server Link:  PRECIOUS CHARMS](https://monkeyapi-2-0.onrender.com/)
+[Server Link: PRECIOUS & CHARMS](https://precious-n-charms.onrender.com/)
 
 ## Tech Stack
 <div>
