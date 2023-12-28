@@ -9,13 +9,21 @@ export default function ProductCard({id,price,about,brand,avatar,name}:any) {
   console.log(name)
   return (
     <Div key={id} className='product' >
-         <Link to={`/product/:name/${id}`}> <img src={avatar} alt={name} style={{ width: "200px" , height:"210px"}} /></Link>
+         <Link to={`/product/:name/${id}`}>
+           <img src={avatar} alt={name} style={{ width: "100%" , height:"230px",objectFit:"cover"}} />
+           </Link>
           {/* <p>Name: {ele.name}</p> */}
         
           {/* <h4> {about}</h4> */}
-          <Heading as='h3' size='sm'>{about}</Heading>
+          <center>
+            <div className='detailstab'>
+            <Heading as='h3' size='sm'>{about}</Heading>
           <p>{brand}</p>
           <p> ₹{price}</p>
+            </div>
+          
+          </center>
+         
           {/* <Button colorScheme='teal' variant='outline'>Add To Cart</Button> */}
           
         </Div>
@@ -27,6 +35,9 @@ const Div=styled.div`
   height:350px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  padding-left: 15px;
-  padding-bottom: 10px;
+  padding: 10px;
+  .detailstab{
+    padding: 10px 0 0 0;
+    
+  }
 `
