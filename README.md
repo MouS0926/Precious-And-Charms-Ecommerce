@@ -41,10 +41,15 @@ Admin Features :
 - Existing product details can be edited or updated as needed
 - Admin can view the User details including their cart , order details
 
-Admin Credentilas:
-User ID: admin123@gmail.com
+## Admin Credentilas:
+Admin ID: admin123@gmail.com
+
 Password: admin123
 
+## Sample User CRedentail for quick check:
+User ID : moumita@gmail.com
+
+Password: moumita
 
 ## Run Locally
 
