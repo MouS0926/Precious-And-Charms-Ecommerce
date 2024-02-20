@@ -41,6 +41,10 @@ Admin Features :
 - Existing product details can be edited or updated as needed
 - Admin can view the User details including their cart , order details
 
+Admin Credentilas:
+User ID: admin123@gmail.com
+Password: admin123
+
 
 ## Run Locally
 
